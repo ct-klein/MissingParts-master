@@ -1,0 +1,134 @@
+// class version 50.0 (50)
+// access flags 0x601
+public abstract interface codechicken/multipart/scalatraits/JInventoryTile implements codechicken/multipart/scalatraits/TIInventoryTile  {
+
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JInventoryTile$$invList()Ljava/util/LinkedList;
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JInventoryTile$$invList_$eq(Ljava/util/LinkedList;)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JInventoryTile$$slotMap()[Lscala/Tuple2;
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JInventoryTile$$slotMap_$eq([Lscala/Tuple2;)V
+
+  // access flags 0x401
+  public abstract invList()Ljava/util/LinkedList;
+
+  // access flags 0x401
+  public abstract invList_$eq(Ljava/util/LinkedList;)V
+
+  // access flags 0x401
+  public abstract slotMap()[Lscala/Tuple2;
+
+  // access flags 0x401
+  public abstract slotMap_$eq([Lscala/Tuple2;)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$TIInventoryTile$$super$copyFrom(Lcodechicken/multipart/TileMultipart;)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JInventoryTile$$super$copyFrom(Lcodechicken/multipart/TileMultipart;)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$TIInventoryTile$$super$bindPart(Lcodechicken/multipart/TMultiPart;)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JInventoryTile$$super$bindPart(Lcodechicken/multipart/TMultiPart;)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$TIInventoryTile$$super$partRemoved(Lcodechicken/multipart/TMultiPart;I)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JInventoryTile$$super$partRemoved(Lcodechicken/multipart/TMultiPart;I)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$TIInventoryTile$$super$clearParts()V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JInventoryTile$$super$clearParts()V
+
+  // access flags 0x401
+  public abstract copyFrom(Lcodechicken/multipart/TileMultipart;)V
+
+  // access flags 0x401
+  public abstract bindPart(Lcodechicken/multipart/TMultiPart;)V
+
+  // access flags 0x401
+  public abstract partRemoved(Lcodechicken/multipart/TMultiPart;I)V
+
+  // access flags 0x401
+  public abstract clearParts()V
+
+  // access flags 0x401
+  public abstract rebuildSlotMap()V
+
+  // access flags 0x401
+  public abstract isEmpty()Z
+
+  // access flags 0x401
+  public abstract getName()Ljava/lang/String;
+
+  // access flags 0x401
+  public abstract getDisplayName()Lnet/minecraft/util/text/TextComponentString;
+
+  // access flags 0x401
+  public abstract hasCustomName()Z
+
+  // access flags 0x401
+  public abstract getSizeInventory()I
+
+  // access flags 0x401
+  public abstract getStackInSlot(I)Lnet/minecraft/item/ItemStack;
+
+  // access flags 0x401
+  public abstract decrStackSize(II)Lnet/minecraft/item/ItemStack;
+
+  // access flags 0x401
+  public abstract removeStackFromSlot(I)Lnet/minecraft/item/ItemStack;
+
+  // access flags 0x401
+  public abstract setInventorySlotContents(ILnet/minecraft/item/ItemStack;)V
+
+  // access flags 0x401
+  public abstract getInventoryStackLimit()I
+
+  // access flags 0x401
+  public abstract isUsableByPlayer(Lnet/minecraft/entity/player/EntityPlayer;)Z
+
+  // access flags 0x401
+  public abstract openInventory(Lnet/minecraft/entity/player/EntityPlayer;)V
+
+  // access flags 0x401
+  public abstract closeInventory(Lnet/minecraft/entity/player/EntityPlayer;)V
+
+  // access flags 0x401
+  public abstract isItemValidForSlot(ILnet/minecraft/item/ItemStack;)Z
+
+  // access flags 0x401
+  public abstract getField(I)I
+
+  // access flags 0x401
+  public abstract setField(II)V
+
+  // access flags 0x401
+  public abstract getFieldCount()I
+
+  // access flags 0x401
+  public abstract clear()V
+
+  // access flags 0x401
+  public abstract getSlotsForFace(Lnet/minecraft/util/EnumFacing;)[I
+
+  // access flags 0x401
+  public abstract canInsertItem(ILnet/minecraft/item/ItemStack;Lnet/minecraft/util/EnumFacing;)Z
+
+  // access flags 0x401
+  public abstract canExtractItem(ILnet/minecraft/item/ItemStack;Lnet/minecraft/util/EnumFacing;)Z
+
+  // access flags 0x401
+  public abstract getDisplayName()Lnet/minecraft/util/text/ITextComponent;
+}

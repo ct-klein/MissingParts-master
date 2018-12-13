@@ -1,0 +1,70 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url = "http://files.minecraftforge.net/maven" }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+    }
+}
+apply plugin: 'net.minecraftforge.gradle.forge'
+//Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
+
+
+version = "${mod_version}"
+group = "com.it3.missingparts" 
+archivesBaseName = "MissingParts"
+
+sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+compileJava {
+    sourceCompatibility = targetCompatibility = '1.8'
+}
+
+minecraft {
+    version = "${minecraft_version}-${forge_version}"
+    runDir = "run"
+    mappings = "${mappings_version}"
+
+    replace "@VERSION@", project.getVersion()
+    replaceIn "MissingParts.java"
+}
+
+repositories {
+    maven {
+        name = "ChickenBones maven"
+        url = "http://chickenbones.net/maven/"
+    }
+    maven {
+        name = "tterrag maven"
+        url = "http://maven.tterrag.com/"
+    }
+    maven {
+        name = "Progwml6 maven"
+        url = "http://dvs1.progwml6.com/files/maven/"
+    }
+    maven {
+        name = "CraftTweaker Maven"
+        url = "https://maven.blamejared.com/"
+    }
+}
+
+dependencies {
+    deobfCompile "codechicken:ChickenASM:${short_version}-${chickenasm_version}"
+    deobfCompile "codechicken:CodeChickenLib:${minecraft_version}-${ccl_version}:deobf"
+    deobfCompile "codechicken:ForgeMultipart:${minecraft_version}-${multipart_version}:deobf"
+    deobfCompile "CraftTweaker2:CraftTweaker2-MC${stripped_version}-Main:${crafttweaker_version}"
+    deobfCompile "mezz.jei:jei_${minecraft_version}:${jei_version}"
+    //compile files("libs/gregtech-${minecraft_version}-${gt_version}.jar")
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+        expand 'version':project.version, 'mcversion':project.minecraft.version
+    }
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}

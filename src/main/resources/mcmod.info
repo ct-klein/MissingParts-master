@@ -1,0 +1,16 @@
+[
+{
+  "modid": "missingparts",
+  "name": "Missing Parts",
+  "description": "Missing Parts from GT5",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Irongron"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

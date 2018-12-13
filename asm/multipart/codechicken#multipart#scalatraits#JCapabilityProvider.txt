@@ -1,0 +1,101 @@
+// class version 50.0 (50)
+// access flags 0x601
+public abstract interface codechicken/multipart/scalatraits/JCapabilityProvider implements codechicken/multipart/scalatraits/TCapabilityProvider  {
+
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JCapabilityProvider$$ITEM_CAP()Lnet/minecraftforge/common/capabilities/Capability;
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JCapabilityProvider$$ITEM_CAP_$eq(Lnet/minecraftforge/common/capabilities/Capability;)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JCapabilityProvider$$caps()Ljava/util/LinkedList;
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JCapabilityProvider$$caps_$eq(Ljava/util/LinkedList;)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JCapabilityProvider$$itemCaps()[Lcodechicken/multipart/scalatraits/WrappedItemHandler;
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JCapabilityProvider$$itemCaps_$eq([Lcodechicken/multipart/scalatraits/WrappedItemHandler;)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JCapabilityProvider$$genericItemCap()Lcodechicken/multipart/scalatraits/WrappedItemHandler;
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JCapabilityProvider$$genericItemCap_$eq(Lcodechicken/multipart/scalatraits/WrappedItemHandler;)V
+
+  // access flags 0x401
+  public abstract ITEM_CAP()Lnet/minecraftforge/common/capabilities/Capability;
+
+  // access flags 0x401
+  public abstract caps()Ljava/util/LinkedList;
+
+  // access flags 0x401
+  public abstract caps_$eq(Ljava/util/LinkedList;)V
+
+  // access flags 0x401
+  public abstract itemCaps()[Lcodechicken/multipart/scalatraits/WrappedItemHandler;
+
+  // access flags 0x401
+  public abstract itemCaps_$eq([Lcodechicken/multipart/scalatraits/WrappedItemHandler;)V
+
+  // access flags 0x401
+  public abstract genericItemCap()Lcodechicken/multipart/scalatraits/WrappedItemHandler;
+
+  // access flags 0x401
+  public abstract genericItemCap_$eq(Lcodechicken/multipart/scalatraits/WrappedItemHandler;)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$TCapabilityProvider$$super$copyFrom(Lcodechicken/multipart/TileMultipart;)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JCapabilityProvider$$super$copyFrom(Lcodechicken/multipart/TileMultipart;)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$TCapabilityProvider$$super$bindPart(Lcodechicken/multipart/TMultiPart;)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JCapabilityProvider$$super$bindPart(Lcodechicken/multipart/TMultiPart;)V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$TCapabilityProvider$$super$clearParts()V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JCapabilityProvider$$super$clearParts()V
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$TCapabilityProvider$$super$hasCapability(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Z
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JCapabilityProvider$$super$hasCapability(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Z
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$TCapabilityProvider$$super$getCapability(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Ljava/lang/Object;
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$JCapabilityProvider$$super$getCapability(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Ljava/lang/Object;
+
+  // access flags 0x401
+  public abstract codechicken$multipart$scalatraits$TCapabilityProvider$_setter_$ITEM_CAP_$eq(Lnet/minecraftforge/common/capabilities/Capability;)V
+
+  // access flags 0x401
+  public abstract copyFrom(Lcodechicken/multipart/TileMultipart;)V
+
+  // access flags 0x401
+  public abstract bindPart(Lcodechicken/multipart/TMultiPart;)V
+
+  // access flags 0x401
+  public abstract clearParts()V
+
+  // access flags 0x401
+  public abstract rebuildSlotMap()V
+
+  // access flags 0x401
+  public abstract hasCapability(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Z
+
+  // access flags 0x401
+  public abstract getCapability(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Ljava/lang/Object;
+}
