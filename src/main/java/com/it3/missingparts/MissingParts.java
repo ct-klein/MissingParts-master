@@ -10,14 +10,23 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = MissingParts.MODID, name = MissingParts.MODNAME, version = MissingParts.MODVERSION, dependencies = "required-after:forge@[14.23.5.2768,)", useMetadata = true)
+@Mod(modid = MissingParts.MODID,
+        name = MissingParts.MODNAME,
+        version = MissingParts.MODVERSION,
+        dependencies = "required-after:forge@[14.23.5.2768,)",
+        useMetadata = true)
+
 public class MissingParts {
 
     public static final String MODID = "missingparts";
     public static final String MODNAME = "Missing Parts";
-    public static final String MODVERSION= "0.0.1";
+    public static final String MODVERSION= "@VERSION@";
 
-    @SidedProxy(clientSide = "com.it3.missingparts.proxy.ClientProxy", serverSide = "com.it3.missingparts.proxy.ServerProxy")
+    @SidedProxy(
+            modId = MODID,
+            clientSide = "com.it3.missingparts.proxy.ClientProxy",
+            serverSide = "com.it3.missingparts.proxy.ServerProxy")
+
     public static CommonProxy proxy;
 
     public static CreativeTabs creativeTab = new CreativeTabs( "Missing Parts") {
