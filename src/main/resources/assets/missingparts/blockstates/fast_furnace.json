@@ -4,9 +4,9 @@
     "model": "cube",
     "textures": {
       "north": "missingparts:blocks/chestbuffer",
-      "south": "missingparts:blocks/side_chestbuffer",
-      "west": "missingparts:blocks/side_chestbuffer",
-      "east": "missingparts:blocks/side_chestbuffer",
+      "south": "missingparts:blocks/back_chestbuffer",
+      "west": "missingparts:blocks/leftside_chestbuffer",
+      "east": "missingparts:blocks/rightside_chestbuffer",
       "up": "missingparts:blocks/top_chestbuffer",
       "down": "missingparts:blocks/bottom_chestbuffer"
     }
