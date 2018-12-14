@@ -1,13 +1,26 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "model": "cube_all",
+    "model": "cube",
     "textures": {
-      "all": "missingparts:blocks/automation_chestbuffer"
+      "north": "missingparts:blocks/chestbuffer",
+      "south": "missingparts:blocks/side_chestbuffer",
+      "west": "missingparts:blocks/side_chestbuffer",
+      "east": "missingparts:blocks/side_chestbuffer",
+      "up": "missingparts:blocks/top_chestbuffer",
+      "down": "missingparts:blocks/bottom_chestbuffer"
     }
   },
   "variants": {
     "normal": [{}],
-    "inventory": [{}]
+    "inventory": [{}],
+    "facing": {
+      "north": {},
+      "south": {"y": 180},
+      "west": {"y": 270},
+      "east": {"y": 90},
+      "up": {"x": -90},
+      "down": {"x": 90}
+    }
   }
 }

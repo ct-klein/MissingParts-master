@@ -1,0 +1,7 @@
+
+#Blocks
+tile.missingparts.fast_furnace.name=Item Chest Buffer
+
+#Creative Tabs
+itemGroup.fast_furnace.name = Missing Parts
+
