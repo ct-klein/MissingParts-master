@@ -26,6 +26,7 @@ public class BlockFastFurnace extends Block {
 
     public static final ResourceLocation FAST_FURNACE = new ResourceLocation(MissingParts.MODID, "fast_furnace");
 
+
     public BlockFastFurnace() {
         super(Material.IRON);
 
